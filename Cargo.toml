@@ -1,0 +1,12 @@
+[package]
+name = "gps-tracks-ultra-pro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+color-eyre = "0.6.3"
+geo-types = "0.7.13"
+gpx = "0.10.0"
+rusqlite = { version = "0.31.0", features = ["bundled", "time"] }
+time = { version = "0.3.36", features = ["macros"] }
